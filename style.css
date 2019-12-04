@@ -1,0 +1,50 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	height: 100vh;
+	background-color: coral;
+	display: flex;
+	justify-content: center; /*main axis*/
+	align-items: center; /*cross axis*/
+}
+
+#box {
+	background-color: white;
+	width: 450px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#img-eiffel {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin-top: 30px;
+} 
+
+input, button {
+	margin-top: 10px;
+	color: coral;
+	border: 1px solid coral;
+	height: 3em;
+	padding-left: 15px;	
+	width: 85%;
+	font-size: 14pt;
+	border-radius: 10px;
+}
+
+input::placeholder {
+	color: coral;
+}
+
+button {
+	background-color: coral;
+	color: white;
+}
